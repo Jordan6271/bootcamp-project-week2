@@ -1,0 +1,71 @@
+#heading {
+    background-color: purple;
+}
+
+#logo {
+    background-color: red;
+}
+
+#header {
+    background-color: yellow;
+}
+
+#nav {
+    background-color: blue;
+}
+
+#pc-nav-button {
+    background-color: grey;
+}
+
+#xbox-nav-button {
+    background-color: pink;
+}
+
+#playstation-nav-button {
+    background-color: green;
+}
+
+#main-content {
+    background-color: red;
+}
+
+#intro-content {
+    background-color: blue;
+}
+
+#further-information {
+    background-color: purple;
+}
+
+#bottom-content {
+    background-color: yellow;
+}
+
+#whats-new {
+    background-color: grey;
+}
+
+#whats-new-pic {
+    background-color: orange;
+}
+
+#top-picks {
+    background-color: white;
+}
+
+#top-picks-pic {
+    background-color: brown;
+}
+
+#important-news {
+    background-color: pink;
+}
+
+#important-news-pic {
+    background-color: green;
+}
+
+#footer {
+    background-color: gold;
+}
