@@ -1,71 +1,218 @@
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #CA580F;
+    background-color: #1D1818;
+}
+
+#pause-play-button, #nav-links, #intro-content, #further-information, #bottom-content, #footer {
+    margin-top: 20px;
+    border: 2px solid #CA580F;
+    background-color: #1D1818;
+    padding-bottom: 20px;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#pause-play-button {
+    font-family: 'Orbitron', sans-serif;
+    color: #CA580F;
+    border-radius: 15px;
+    outline: none;
+    padding: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
 #heading {
-    background-color: purple;
+    margin-top: 5%;
+    padding-bottom: 20px;
 }
 
-#logo {
-    background-color: red;
+#logo img {
+    width: 100px;
 }
 
-#header {
-    background-color: yellow;
+#heading h1 {
+    color: #CA580F;
+    -webkit-text-fill-color: #CA580F;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    margin-top: 3%;
 }
 
-#nav {
-    background-color: blue;
+#header2 {
+    margin-left: 10%;
+}
+#header3 {
+    margin-left: 20%;
+}
+
+#nav button {
+    margin-top: 17px;
+    margin-left: -10px;
+    height: 40px;
+    border-radius: 12px;
+    width: 60px;
+    outline: none;
 }
 
 #pc-nav-button {
-    background-color: grey;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+#pc-nav-button:active {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 #xbox-nav-button {
-    background-color: pink;
+    background-color: black;
+    border: 2px solid #107C10;
+    color: #107C10;
+}
+
+#xbox-nav-button:active {
+    background-color: #107C10;
+    border: 2px solid black;
+    color: black;
 }
 
 #playstation-nav-button {
-    background-color: green;
+    font-size: 0.55rem;
+    background-color: #003791;
+    border: 2px solid #ffffff;
+    color: #ffffff;
 }
 
-#main-content {
-    background-color: red;
+#playstation-nav-button:active {
+    background-color: #ffffff;
+    border: 2px solid #003791;
+    color: #003791;
 }
 
-#intro-content {
-    background-color: blue;
+#switch-nav-button {
+    font-size: 0.8rem;
+    background-color: #e60012;
+    border: 2px solid #00c3e3;
+    color: white;
 }
 
-#further-information {
-    background-color: purple;
+#switch-nav-button:active {
+    background-color: #e60012;
+    border: 2px solid white;
+    color: #00c3e3;
 }
 
-#bottom-content {
-    background-color: yellow;
+#bottom-content img {
+    margin-bottom: 10px;
 }
 
-#whats-new {
-    background-color: grey;
+#further-information img {
+    margin-bottom: 20px;
+}
+
+#whats-new, #top-picks, #important-news {
+    margin: 20px 10px;
+    padding-top: 10px;
+    border: 1px solid #CA580F;
 }
 
 #whats-new-pic {
-    background-color: orange;
+    justify-content: flex-start;
 }
 
-#top-picks {
-    background-color: white;
+#top-picks h3 {
+    margin-bottom: 15px;
 }
 
-#top-picks-pic {
-    background-color: brown;
+#important-news img {
+    margin-top: 15px;
 }
 
-#important-news {
-    background-color: pink;
+#footer, #footer h3 {
+    margin-top: 30px;
+    font-size: 0.8rem;
 }
 
-#important-news-pic {
-    background-color: green;
+@media only screen and (min-width: 500px) {
+    #logo img {
+        width: 125px;
+    }
+    #nav button {
+        width: 100px;
+    }
+    #nav button {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    #footer h3 {
+        font-size: 1rem;
+    }
 }
 
-#footer {
-    background-color: gold;
+@media only screen and (min-width: 769px) {
+    #logo img {
+        width: 150px;
+    }
+    #header {
+        padding-left: 100px;
+        margin-top: -30px;
+    }
+    #header h1 {
+        font-size: 3rem;
+    }
+    #nav button {
+        width: 150px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #logo img {
+        width: 200px;
+    }
+    #header {
+        padding-left: 0px;
+    }
+    #nav button {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #nav button {
+        margin-left: 50px;
+    }
+    #footer h3 {
+        font-size: 1.5rem;
+    }
 }
