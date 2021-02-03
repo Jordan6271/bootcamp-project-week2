@@ -40,22 +40,22 @@ body {
 }
 
 #pause-play-button {
-    margin-bottom: 20px;
     font-family: 'Orbitron', sans-serif;
     color: #CA580F;
     border-radius: 15px;
     outline: none;
     padding: 10px;
+    margin-left: 20px;
+    width: 100%;
 }
 
 #heading {
-    margin-top: 20px;
+    margin-top: 5%;
     padding-bottom: 20px;
 }
 
 #logo img {
     width: 100px;
-    margin-left: 15%;
 }
 
 #heading h1 {
@@ -63,6 +63,7 @@ body {
     -webkit-text-fill-color: #CA580F;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
+    margin-top: 3%;
 }
 
 #header2 {
@@ -131,24 +132,34 @@ body {
     color: #00c3e3;
 }
 
-#bottom-content {
-    justify-content: space-around;
-}
-
-#whats-new, #top-picks, #important-news {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    border: 1px solid #CA580F;
-}
-
 #bottom-content img {
     margin-bottom: 10px;
 }
 
+#further-information img {
+    margin-bottom: 20px;
+}
+
+#whats-new, #top-picks, #important-news {
+    margin: 20px 10px;
+    padding-top: 10px;
+    border: 1px solid #CA580F;
+}
+
+#whats-new-pic {
+    justify-content: flex-start;
+}
+
+#top-picks h3 {
+    margin-bottom: 15px;
+}
+
+#important-news img {
+    margin-top: 15px;
+}
+
 #footer, #footer h3 {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 0.8rem;
 }
 
@@ -162,6 +173,9 @@ body {
     #nav button {
         font-size: 1rem;
         margin-left: 0;
+    }
+    #footer h3 {
+        font-size: 1rem;
     }
 }
 
@@ -179,7 +193,6 @@ body {
     #nav button {
         width: 150px;
         font-size: 1.5rem;
-        margin-left: 0;
     }
 }
 
@@ -192,6 +205,14 @@ body {
     }
     #nav button {
         width: 200px;
-        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #nav button {
+        margin-left: 50px;
+    }
+    #footer h3 {
+        font-size: 1.5rem;
     }
 }
