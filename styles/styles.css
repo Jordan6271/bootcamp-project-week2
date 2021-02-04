@@ -119,14 +119,14 @@ body {
     color: #003791;
 }
 
-#switch-nav-button {
-    font-size: 0.8rem;
+#nintendo-nav-button {
+    font-size: 0.65rem;
     background-color: #e60012;
     border: 2px solid #00c3e3;
     color: white;
 }
 
-#switch-nav-button:active {
+#nintendo-nav-button:active {
     background-color: #e60012;
     border: 2px solid white;
     color: #00c3e3;
